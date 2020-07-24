@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPutih"
+    android:orientation="vertical"
+    tools:context=".Activities.Menu.RequestActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/pesan"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/biru"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pesan">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="DATA DIRI"
+                        android:textAllCaps="true"
+                        android:textColor="@color/biru"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+                   <com.google.android.material.textfield.TextInputLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/dtdiri"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginEnd="10dp">
+                       <EditText
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/nama"
+                           android:hint="Masukan Nama Lengkap"
+                           android:textSize="16sp"
+                           android:imeOptions="actionNext"
+                           android:inputType="textPersonName"
+                           android:maxLines="1"/>
+                   </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/notelp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/notelepon"
+                            android:hint="Masukan Nomor Telepon"
+                            android:textSize="16sp"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:maxLines="1"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/alm"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                        <EditText
+                            android:id="@+id/alamat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Masukan Alamat"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/emaill"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                        <EditText
+                            android:id="@+id/email_penerima"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Masukan Email"
+                            android:imeOptions="actionNext"
+                            android:inputType="textWebEmailAddress"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center"
+                        android:text="Detil PESANAN"
+                        android:textAllCaps="true"
+                        android:textColor="@color/biru"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/TGL"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tanggal_pesan"
+                            android:hint="Masukan Tanggal Pemesanan ( 31/01/2020)"
+                            android:textSize="16sp"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:maxLines="1"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/wrn"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/warna"
+                            android:hint="Masukan Warna"
+                            android:textSize="16sp"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:maxLines="1"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ukr"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                        <EditText
+                            android:id="@+id/ukuran"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Masukan Ukuran Pilihan (S/M/L/XL/XXL)"
+                            android:imeOptions="actionNext"
+                            android:inputType="textWebEmailAddress"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/jbaju"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                        <EditText
+                            android:id="@+id/jenisbaju"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Jenis Baju (Lengan Panjang / Pendek)"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                        <EditText
+                            android:id="@+id/textdesign"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Masukan Text Design"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+            <Button
+                android:id="@+id/request"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="24dp"
+                android:text="PESAN"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:backgroundTint="@color/biru"
+                app:cornerRadius="50dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

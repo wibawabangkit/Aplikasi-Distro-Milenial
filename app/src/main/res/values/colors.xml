@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bg_login">#2196F3</color>
+    <color name="gray">#dfdfdf</color>
+    <color name="biru">#2196F3</color>
+    <color name="backgroundcolor">#66000000</color>
+    <color name="lightgray">#66000000</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+    <color name="black_overlay">#66000000</color>
+
+
+
+    <color name="colorBarJualBeli">#2aa1af</color>
+    <color name="colorcardview">#e2f0f1</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorAbuabu">#686464</color>
+    <color name="colorKuninglogo">#fecd06</color>
+    <color name="colormerah">#ff4130</color>
+    <color name="colorTab2">#47c1ff</color>
+    <color name="colorPutih">#ffffff</color>
+</resources>

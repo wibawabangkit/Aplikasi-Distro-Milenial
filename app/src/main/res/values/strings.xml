@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Distro Milenial</string>
+    <string name="author">© Wibawa Bangkit 2020</string>
+    <string name="button_not_register">Tidak memiliki akun? <font color='red'>Daftar Sekarang</font></string>
+    <string name="after_register">Sudah memiliki akun? <font color='red'>Login Sekarang</font></string>
+    <string name="batal">Batal</string>
+    <string name="keluar">Keluar</string>
+    <string name="btncontact">Contact</string>
+    <string name="menuprofile">My Profile</string>
+    <string name="menupesan">Pesan</string>
+    <string name="menuemergency">Emergency</string>
+    <string name="menurequest">Request Design</string>
+    <string name="descprofile">Lihat Profile Anda Disini</string>
+    <string name="descpesan">Silahkan Pilih Pesanan Anda</string>
+    <string name="descreq">Silahkan Isi Form Request</string>
+    <string name="descemergency">Silahkan Hubungi Kami</string>
+    <string name="btnbeli">BELI</string>
+    <string name="salam">Selamat Datang</string>
+    <string name="date">Minggu, 19 Juni 2020</string>
+    <string name="exit">Sign Out</string>
+    <string name="dtpembeli">Data Pembeli</string>
+    <string name="fieldnamapembeli">Nama :</string>
+    <string name="fieldemail">Email :</string>
+    <string name="simpleemail">admin@gmail.com</string>
+    <string name="simplename">admin</string>
+    <string name="toko">Toko Pedia</string>
+    <string name="telepone">Kirim Email</string>
+    <string name="email">Chat Via Whatsapp</string>
+    <string name="baju1">KNTL</string>
+    <string name="baju2">SCRIPSHIT</string>
+    <string name="baju3">AKU IMUT</string>
+    <string name="baju4">LUV</string>
+    <string name="baju5">INFORMATIKA</string>
+    <string name="baju6">FAKBOI</string>
+
+
+</resources>
